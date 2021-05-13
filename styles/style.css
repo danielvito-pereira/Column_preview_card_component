@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+#man-wapper{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100vh;
+    height: 100%;
+}
+#man-wapper p{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+#man-wapper h1{
+    color: hsl(0, 0%, 95%);
+}
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    border-bottom-left-radius: 5%;
+    border-top-left-radius: 5%;
+    width: 80em;
+    text-align: left;
+}
+
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    width: 80em;
+    text-align: left;
+}
+
+.luxury{
+    background-color:hsl(179, 100%, 13%) ;
+    border-bottom-right-radius: 5%;
+    border-top-right-radius: 5%;
+    width: 80em;
+    text-align: left;
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    color: white;
+    font-size: 11px; text-align: center; 
+    color: hsl(228, 45%, 44%); 
+}
