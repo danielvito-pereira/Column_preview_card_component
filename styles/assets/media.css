@@ -1,54 +1,77 @@
-@media(max-width: 600px){
+@media (min-width:1024px) {
   #man-wapper{
-      display: flex;
-      flex-direction: column;
-      align-items: stretch;
-      margin: auto;
-      justify-content: space-between;
-
-  }    
-  .sedans{
-      align-content: center;
-      background-color: hsl(31, 77%, 52%);
-      border-bottom-left-radius: 0%;
-      border-top-right-radius: 5%;
-      border-top-left-radius: 5%;
-      width: 16em;
-      text-align: left;
-      height: auto;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
   }
 
-  .suvs{
-      background-color: hsl(184, 100%, 22%);
-      width: 10em;
-      width: 16em;
-      text-align: left;
-      height: auto;
-     
-  }
-
-  .luxury{
-      background-color:hsl(179, 100%, 13%) ;
-      border-bottom-right-radius: 5%;
-      border-bottom-left-radius: 5%;
-      border-top-right-radius: 0%;
-      width: 16em;
-      text-align: left;
-      height: auto;
-      
-  }
-
-  button{
-      width: 10em;
-      padding: 1em;
-      margin: none;
-      border-radius: 10em ;
-      border-color: hsl(0, 0%, 95%);
-      margin-top: auto;
-  }
-  
-  
-  footer {
-      display: none;
-  }
 }
+
+
+/*
+  #man-wapper p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 17px;
+    padding: 0.6em;
+    margin-top: 10%;
+  }
+  #man-wapper h1{
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display';
+    font-size: 35px;
+    margin-top: 10%;
+    margin-left: 5%;
+  }
+  
+  
+  .man-container {
+    width: 15rem;
+    text-align: left;
+    height: 30rem;
+    padding: 2rem;
+  }
+  .sedans{
+    align-content: center;
+    background-color: hsl(31, 77%, 52%);
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+  }
+  .sedans button{
+    color: hsl(31, 77%, 52%);
+  }
+  .sedans button:hover{
+    color: hsl(0, 0%, 95%);
+   background-color: hsl(31, 77%, 52%) ;
+   
+  }
+  .suvs{
+    background-color: hsl(184, 100%, 22%);
+  }
+  .suvs button{
+    color: hsl(184, 100%, 22%);
+  }
+  .suvs button:hover{
+    color: hsl(0, 0%, 95%);
+   background-color: hsl(184, 100%, 22%) ;
+   
+  }
+  .luxury{
+    background-color:hsl(179, 100%, 13%) ;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+  
+  .luxury button{
+    color: hsl(179, 100%, 13%);
+  }
+  .luxury button:hover{
+    color: hsl(0, 0%, 95%);
+   background-color:  hsl(179, 100%, 13%);
+   
+  }
+
+*/
