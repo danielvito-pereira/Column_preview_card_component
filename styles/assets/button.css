@@ -1,0 +1,9 @@
+button{
+    
+  width: 10em;
+  padding: 1em;
+  margin: none;
+  border-radius: 10em ;
+  border-color: hsl(0, 0%, 95%);
+  margin-top: 30%;
+}
